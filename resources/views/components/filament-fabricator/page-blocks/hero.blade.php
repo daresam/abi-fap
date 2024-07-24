@@ -10,7 +10,10 @@
                         {{ $title }}
 
                     </h1>
-                    <p class="mb-8 leading-relaxed">{{ $content }}</p>
+
+
+
+                    {!! tiptap_converter()->asHTML($content) !!}
                     <div class="flex justify-center">
                         @foreach ($buttons as $button)
                             <button
