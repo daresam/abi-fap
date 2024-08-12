@@ -1,31 +1,11 @@
 {
-<<<<<<< HEAD
   "private": true,
   "type": "module",
-=======
-  "name": "dr_abi_fap",
-  "version": "1.0.0",
-  "description": "",
-
->>>>>>> Incoming
   "scripts": {
-<<<<<<< HEAD
     "dev": "vite",
     "build": "vite build"
-=======
-    "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
-
->>>>>>> Incoming
   },
-<<<<<<< HEAD
-=======
-  "author": "",
-  "license": "ISC",
-
->>>>>>> Incoming
   "devDependencies": {
-<<<<<<< HEAD
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.13",
     "autoprefixer": "^10.4.19",
@@ -36,11 +16,5 @@
     "postcss-nesting": "^12.1.5",
     "tailwindcss": "^3.4.6",
     "vite": "^5.0"
-=======
-    "parcel": "^2.7.0",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8"
-
->>>>>>> Incoming
   }
 }
