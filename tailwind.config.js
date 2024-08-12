@@ -91,6 +91,10 @@ export default {
             mq450: {
                 raw: "screen and (max-width: 450px)",
             },
+            sm: "480px",
+            md: "768px",
+            lg: "976px",
+            xl: "1440px",
         },
     },
     corePlugins: {
