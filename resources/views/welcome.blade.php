@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Dr Abi Fapohunda</title>
+    <title>Abi Fap</title>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
@@ -17,12 +17,18 @@
 </head>
 
 <body>
+
+
     <div
         class="w-full relative bg-white-3 overflow-hidden flex flex-col items-start justify-start gap-[0.043rem] leading-[normal] tracking-[normal]">
-         @include('livewire.layout.navigation')
-        <section
+
+        {{-- Navigation --}}
+        @include('livewire.layout.navigation')
+
+        {{-- Hero Section --}}
+        <section id="hero"
             class="self-stretch flex flex-row items-start justify-start relative max-w-full text-center text-[4rem] text-white font-desktop-links">
-            <img class="h-[56.25rem] flex-1 relative max-w-full overflow-hidden object-cover" loading="lazy"
+            <img class="h-[56.25rem] flex-1 relative max-w-full overflow-hidden object-cover " loading="lazy"
                 alt="" src="{{ asset('images/gradient@2x.png') }}" />
 
             <div
@@ -134,11 +140,13 @@
                     <div class="flex flex-row items-start justify-start gap-[0.75rem]">
                         <div
                             class="h-[3rem] w-[3.125rem] rounded-781xl box-border flex flex-row items-start justify-start p-[1.062rem] border-[1px] border-solid border-white-3">
-                            <img class="h-[0.875rem] w-[0.875rem] relative" alt="" src="{{ asset('images/vector-1.svg') }}" />
+                            <img class="h-[0.875rem] w-[0.875rem] relative" alt=""
+                                src="{{ asset('images/vector-1.svg') }}" />
                         </div>
                         <div
                             class="h-[2.938rem] w-[3.125rem] rounded-781xl box-border flex flex-row items-start justify-start py-[1.062rem] px-[1rem] border-[1px] border-solid border-white-3">
-                            <img class="h-[0.813rem] w-[1rem] relative" alt="" src="{{ asset('images/vector-2.svg') }}" />
+                            <img class="h-[0.813rem] w-[1rem] relative" alt=""
+                                src="{{ asset('images/vector-2.svg') }}" />
                         </div>
                         <div
                             class="h-[3rem] w-[3.125rem] rounded-781xl box-border flex flex-row items-start justify-start p-[1.062rem] border-[1px] border-solid border-white-3">
