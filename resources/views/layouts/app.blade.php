@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="light">
 
 <head>
     <meta charset="utf-8">
@@ -18,20 +18,18 @@
 </head>
 
 <body>
-    <div
-        class="w-full relative bg-white-3 overflow-hidden flex flex-col items-start justify-start gap-[3.75rem] leading-[normal] tracking-[normal] text-left text-[0.688rem] text-red font-desktop-links mq975:gap-[1.875rem]">
 
 
-        @include('livewire.layout.navigation')
+    @include('livewire.layout.navigation')
 
-        <!-- Page Content -->
-        <main>
-            {{ $slot }}
-        </main>
+    <!-- Page Content -->
+    <main>
+        {{ $slot }}
+    </main>
 
-        <!-- Footer -->
-        @include('livewire.layout.footer')
-    </div>
+    <!-- Footer -->
+    @include('livewire.layout.footer')
+
     @livewireScripts
 </body>
 

@@ -61,9 +61,6 @@ export default {
             mq1425: {
                 raw: "screen and (max-width: 1425px)",
             },
-            lg: {
-                max: "1200px",
-            },
             mq1050: {
                 raw: "screen and (max-width: 1050px)",
             },
@@ -93,7 +90,9 @@ export default {
             },
             sm: "480px",
             md: "768px",
-            lg: "976px",
+            lg: {
+                max: "1200px",
+            },
             xl: "1440px",
         },
     },
@@ -101,5 +100,5 @@ export default {
         preflight: false,
     },
 
-    plugins: [forms],
+    plugins: [forms, require("daisyui")],
 };

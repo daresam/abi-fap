@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="light">
 
 <head>
     <meta charset="utf-8">
@@ -26,32 +26,32 @@
         @include('livewire.layout.navigation')
 
         {{-- Hero Section --}}
+
         <section id="hero"
-            class="self-stretch flex flex-row items-start justify-start relative max-w-full text-center text-[4rem] text-white font-desktop-links">
-            <img class="h-[56.25rem] flex-1 relative max-w-full overflow-hidden object-cover " loading="lazy"
-                alt="" src="{{ asset('images/gradient@2x.png') }}" />
+            class="flex flex-col md:flex-row items-center justify-start relative max-w-full text-center text-[2rem] md:text-[4rem] text-white font-desktop-links">
+            <!-- Hero Background Image -->
+            <img class="w-full h-[30rem] md:h-[56.25rem] object-cover" loading="lazy" alt="Hero Background"
+                src="{{ asset('images/hero-cover-image.png') }}" />
 
             <div
-                class="w-[53.563rem] !m-[0] absolute bottom-[18.875rem] left-[18.063rem] flex flex-col items-start justify-start p-[0.625rem] box-border max-w-full z-[1]">
-                <div class="self-stretch flex flex-col items-center justify-start gap-[1.875rem]">
-                    <h1
-                        class="m-0 self-stretch relative text-inherit tracking-[-0.02em] font-bold font-inherit mq450:text-[2.375rem] mq975:text-[3.188rem]">
+                class="absolute bottom-8 md:bottom-[18.875rem] left-4 md:left-[18.063rem] w-full md:w-auto flex flex-col items-center md:items-start justify-start p-4 box-border z-10">
+                <div
+                    class="w-full md:w-[53.563rem] flex flex-col items-center md:items-start justify-start gap-6 md:gap-[1.875rem]">
+                    <h1 class="text-[2.375rem] md:text-[3.188rem] lg:text-[4rem] font-bold tracking-[-0.02em]">
                         Dr. Abi Fapohunda
                     </h1>
                     <h2
-                        class="m-0 self-stretch relative text-[1.5rem] leading-[150%] font-normal font-inherit text-white-2 mq450:text-[1.188rem] mq450:leading-[1.813rem]">
+                        class="text-[1.188rem] md:text-[1.5rem] leading-[1.813rem] md:leading-[150%] font-normal text-white-2">
                         Scholar. Writer. Speaker.
                     </h2>
                     <button
-                        class="cursor-pointer [border:none] py-[0.875rem] px-[1.375rem] bg-white shadow-[0px_1px_2px_rgba(0,_0,_0,_0.05)] rounded-lg flex flex-row items-center justify-center whitespace-nowrap hover:bg-gainsboro mq450:w-[calc(100%_-_40px)]">
-                        <div
-                            class="relative text-[1rem] tracking-[0.2em] leading-[150%] font-semibold font-desktop-links text-red text-left">
-                            SCHEDULE CONSULTATION
-                        </div>
+                        class="cursor-pointer border-none  py-3 px-6 bg-white shadow-sm rounded-lg flex items-center justify-center text-[1rem] tracking-[0.2em] leading-[150%] font-semibold text-red hover:bg-gainsboro w-full md:w-auto">
+                        SCHEDULE CONSULTATION
                     </button>
                 </div>
             </div>
         </section>
+
         <section
             class="self-stretch bg-white flex flex-col items-center justify-start pt-[5rem] px-[1.25rem] pb-[5.25rem] box-border gap-[2.5rem] max-w-full text-left text-[1.75rem] text-red font-desktop-links mq725:gap-[1.25rem]">
             <div class="w-[75.75rem] flex flex-row items-start justify-center max-w-full">
