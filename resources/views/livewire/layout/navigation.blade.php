@@ -29,18 +29,18 @@ new class extends Component {
     <!-- Navigation Links -->
     <div class="items-center hidden max-w-full gap-5 text-sm text-black md:flex">
         <div class="p-2.5">
-            <a href="#" class="font-medium no-underline text-decoration-none text-red">Bio</a>
+            <a href="/bio" class="font-medium no-underline text-decoration-none text-red">Bio</a>
         </div>
         <div class="flex items-center p-2.5 gap-2.5 ">
-            <a href="#" class="font-medium no-underline text-decoration-none text-red">Scholarships</a>
+            <a href="/scholarship" class="font-medium no-underline text-decoration-none text-red">Scholarships</a>
             <img class="h-[0.331rem] w-[0.575rem]" alt="Caret Dropdown Icon"
                 src="{{ asset('images/caret-icon.svg') }}" />
         </div>
         <div class="p-2.5">
-            <a href="#" class="font-medium no-underline text-decoration-none text-red">Media</a>
+            <a href="/media" class="font-medium no-underline text-decoration-none text-red">Media</a>
         </div>
         <div class="p-2.5">
-            <a href="#"
+            <a href="/consulting"
                 class="font-medium no-underline text-decoration-none whitespace-nowrap text-red">Consulting &
                 Inquiries</a>
         </div>
@@ -80,16 +80,16 @@ new class extends Component {
         <!-- Responsive Settings Options -->
         <div class="flex flex-col gap-5 p-2 pt-2 pb-3 mt-3 space-y-1">
 
-            <a href="" class="font-medium no-underline text-red">Bio</a>
+            <a href="/bio" class="font-medium no-underline text-red">Bio</a>
             <div class="flex items-center cursor-pointer ">
-                <a href="#" class="font-medium no-underline text-red">Scholarships</a>
+                <a href="/scholarship" class="font-medium no-underline text-red">Scholarships</a>
                 <img class="h-[0.331rem] w-[0.575rem]" alt="Scholarship Icon"
                     src="{{ asset('images/scholarship-icon.svg') }}" />
             </div>
-            <a href="#" class="font-medium no-underline text-red">Media</a>
+            <a href="/media" class="font-medium no-underline text-red">Media</a>
 
 
-            <a href="#" class="font-medium no-underline whitespace-nowrap text-red">Consulting &
+            <a href="/consulting" class="font-medium no-underline whitespace-nowrap text-red">Consulting &
                 Inquiries</a>
 
 

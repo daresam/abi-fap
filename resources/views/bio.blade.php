@@ -35,28 +35,24 @@
                     class="[text-decoration:none] relative text-[2rem] tracking-[1.1px] leading-[1.063rem] uppercase  font-bold text-red inline-block min-w-[4.588rem]">About
                     Me</a>
                 <div class="self-stretch  md:h-[25rem] relative leading-[1.875rem] pt-[1.312rem] inline-block shrink-0">
-                    Dr. Dara D. Méndez is a nationally recognized researcher, writer
-                    and speaker. She has 20+ years of multi-disciplinary public health
-                    experience at the intersections of structural and social
-                    determinants of health equity, reproductive justice, maternal and
-                    child health and epidemiology. In addition to being a professor,
-                    she has served in leadership roles with the Black Equity
-                    Coalition, the Pennsylvania Maternal Mortality Committee, and as
-                    Health Equity Editor for Block Chronicles. Dr. Méndez has helped
-                    leaders and organizations develop and implement strategies,
-                    initiatives and research to promote health equity and justice.
+                    Dr. Abi Fapohunda is an Assistant Professor at the University of Pittsburgh School of Public Health
+                    and have conducted several studies among African Americans, Africans in the Diaspora and on the
+                    African Continent. She is an epidemiologist and health educator with over 20 years’ experience of
+                    running her consulting company and being in public health. She conducted needs assessments and
+                    program evaluations on the effectiveness of numerous community-based initiatives related to health
+                    disparities in both behavioral and physical health, including nutrition, smoking cessation,
+                    HIV/AIDS, oral health and social service programs in Black communities.
                 </div>
                 <div class="self-stretch md:h-[20rem] relative leading-[1.875rem] inline-block shrink-0">
-                    Dr. Dara D. Méndez is a nationally recognized researcher, writer
-                    and speaker. She has 20+ years of multi-disciplinary public health
-                    experience at the intersections of structural and social
-                    determinants of health equity, reproductive justice, maternal and
-                    child health and epidemiology. In addition to being a professor,
-                    she has served in leadership roles with the Black Equity
-                    Coalition, the Pennsylvania Maternal Mortality Committee, and as
-                    Health Equity Editor for Block Chronicles. Dr. Méndez has helped
-                    leaders and organizations develop and implement strategies,
-                    initiatives and research to promote health equity and justice.
+                    The focus of her current research is exploring factors that contribute to a healthy community for
+                    Black immigrants. Dr. Fapohunda is also conducting research abroad training healthcare practitioners
+                    on cancer awareness. In February 2019, Lakeshore Cancer Center in Lagos, Nigeria and Dr. Fapohunda
+                    completed training workshops on cancer awareness for healthcare practitioners. Currently funded by
+                    the Rotary Global Grant, she and her team developed an eLearning training platform “Learn with
+                    Lakeshore” to train healthcare practitioners on cancer awareness in Lagos, Nigeria. She is also a PI
+                    on the Pittsburgh Transformations Project funded by the Pitt Momentum Award. This is a
+                    multidisciplinary, collaborative study that addresses the historical and contemporary struggles of
+                    underrepresented U.S. populations.
                 </div>
             </div>
         </div>
