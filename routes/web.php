@@ -4,6 +4,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
 Route::view('/bio', 'bio');
+Route::view('/scholarship', 'scholarship');
+Route::view('/research', 'research');
+Route::view('/media', 'media');
+Route::view('/consulting', 'consulting');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
