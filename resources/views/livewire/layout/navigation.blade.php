@@ -59,9 +59,9 @@ new class extends Component {
     <!-- Hamburger -->
     <div class="items-end hidden mb-5 cursor-pointer mq700:flex">
         <!-- Logo -->
-        {{-- <a href="/" wire:navigate class="left-0 text-3xl font-bold no-underline top-2 text-red">
+        <a :class="{ 'hidden': open, 'inline-flex': !open }" href="/" wire:navigate class="left-0 text-3xl font-bold no-underline top-2 text-red">
             ABI FAP
-        </a> --}}
+        </a>
         <button @click="open = ! open"
             class="absolute top-0 right-0 items-center justify-center p-2 m-3 text-gray-400 transition duration-150 ease-in-out rounded-md cursor-pointer -3 dark:text-gray-500 hover:text-gray-500 dark:hover:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-900 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-900 focus:text-gray-500 dark:focus:text-gray-400 ">
             <svg class="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">

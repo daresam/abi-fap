@@ -19,7 +19,7 @@
 
 <body>
 
-
+    <!-- Navigation -->
     @include('livewire.layout.navigation')
 
     <!-- Page Content -->

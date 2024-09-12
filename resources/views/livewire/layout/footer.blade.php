@@ -3,17 +3,7 @@
 use App\Livewire\Actions\Logout;
 use Livewire\Volt\Component;
 
-new class extends Component {
-    /**
-     * Log the current user out of the application.
-     */
-    public function logout(Logout $logout): void
-    {
-        $logout();
-
-        $this->redirect('/', navigate: true);
-    }
-}; ?>
+new class extends Component {}; ?>
 
 <footer
     class="self-stretch bg-black flex flex-col items-start justify-start pt-[3.625rem] px-[0rem] pb-[3.137rem] box-border gap-[3.112rem] max-w-full text-left text-[0.688rem] text-red font-desktop-links mq450:pt-[2.375rem] mq450:pb-[2.063rem] mq450:box-border mq750:gap-[1.563rem]">
