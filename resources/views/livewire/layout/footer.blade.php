@@ -15,10 +15,9 @@ new class extends Component {}; ?>
                 DR. ABI FAPOHUNDA
             </h3>
             <div class="self-stretch relative text-[0.875rem] leading-[1.5rem] text-white-2">
-                Dr. Abi Fapohunda is an Associate Professor of Epidemiology at the
-                University of Pittsburgh School of Public Health, specializing in
-                reproductive justice, maternal and child health, and health
-                equity.
+                Dr. Abi Fapohunda is an Assistant Professor at the University of Pittsburgh School of Public Health and
+                have conducted several studies among African Americans, Africans in the Diaspora and on the African
+                Continent.
             </div>
         </div>
         <div class="flex flex-col items-start justify-start gap-[1.312rem]">

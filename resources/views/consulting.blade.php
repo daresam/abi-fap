@@ -22,15 +22,15 @@
 
     {{-- Section 1  --}}
     <section
-        class="self-stretch flex flex-row items-start justify-start pt-[0rem] px-[5rem] pb-[3.75rem] box-border max-w-full text-left text-[1rem] text-black font-desktop-links mq825:pl-[2.5rem] mq825:pr-[2.5rem] mq825:pb-[2.438rem] mq825:box-border">
+        class="self-stretch flex flex-row items-start justify-start pt-[0rem] px-[5rem] pb-[3.75rem] mt-4 box-border max-w-full text-left text-[1rem] text-black font-desktop-links mq825:pl-[2.5rem] mq825:pr-[2.5rem] mq825:pb-[2.438rem] mq825:box-border">
         <div
             class="flex-1 flex flex-row items-start justify-start gap-[2.187rem] max-w-full mq825:gap-[1.063rem] mq1425:flex-wrap">
             <img class="h-[31.25rem] flex-1 relative rounded-xl max-w-full overflow-hidden object-cover min-w-[29.75rem] mq825:min-w-full"
                 alt="" src="{{ asset('images/gradient-12@2x.png') }}" />
 
             <div
-                class="w-[32.063rem] flex flex-col items-start justify-start pt-[5.312rem] px-[0rem] pb-[0rem] box-border min-w-[32.063rem] max-w-full mq825:pt-[3.438rem] mq825:box-border mq825:min-w-full mq1425:flex-1">
-                <div class="self-stretch h-[25rem] relative leading-[1.875rem] inline-block shrink-0">
+                class="w-[32.063rem] flex flex-col items-start justify-start pt-[0.312rem] px-[0rem] pb-[0rem] box-border min-w-[32.063rem] max-w-full mq825:pt-[3.438rem] mq825:box-border mq825:min-w-full mq1425:flex-1">
+                <div class="self-stretch h-[25rem] relative leading-[1.875rem] inline-block shrink-0 text-justify">
                     Dr. Dara D. Méndez is a nationally recognized researcher, writer
                     and speaker. She has 20+ years of multi-disciplinary public health
                     experience at the intersections of structural and social
@@ -58,7 +58,7 @@
                 </h1>
             </div>
             <h2
-                class="m-0 self-stretch relative text-[1.5rem] leading-[150%] font-normal font-inherit text-black mq450:text-[1.188rem] mq450:leading-[1.813rem]">
+                class="m-0 self-stretch relative text-[1.5rem] leading-[150%] font-normal font-inherit text-black mq450:text-[1.188rem] mq450:leading-[1.813rem] text-justify ">
                 <ul class="m-0 font-inherit text-inherit pl-[1.333rem]">
                     <li class="my-[undefined] mx-[undefined]">
                         Integrating Arts-Based Approaches in Public Health
@@ -103,7 +103,7 @@
                 </h1>
             </div>
             <h2
-                class="m-0 self-stretch relative text-[1.5rem] leading-[150%] font-normal font-inherit text-black mq450:text-[1.188rem] mq450:leading-[1.813rem]">
+                class="m-0 self-stretch relative text-[1.5rem] leading-[150%] font-normal font-inherit text-black mq450:text-[1.188rem] text-left  mq450:leading-[1.813rem]">
                 <ul class="m-0 font-inherit text-inherit pl-[1.333rem]">
                     <li class="my-[undefined] mx-[undefined]">
                         Quantitative and Qualitative Research: Study Design, Data

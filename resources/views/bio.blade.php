@@ -23,7 +23,7 @@
     {{-- Section 1  --}}
 
     <section
-        class="self-stretch flex flex-row items-start justify-start pt-[2rem] px-[5rem] pb-[3.75rem] box-border max-w-full text-left text-[1rem] text-black font-desktop-links mq825:pl-[2.5rem] mq825:pr-[2.5rem] mq825:pb-[2.438rem] mq825:box-border">
+        class="self-stretch flex flex-row items-start justify-start pt-[2rem] px-[5rem] pb-[3.75rem] box-border mb-5  max-w-full text-left text-[1rem] text-black font-desktop-links mq825:pl-[2.5rem] mq825:pr-[2.5rem] mq825:pb-[2.438rem] mq825:box-border">
         <div
             class="flex-1 flex flex-row items-start justify-start gap-[2.187rem] max-w-full mq825:gap-[1.063rem] mq1425:flex-wrap">
             <img class=" flex-1 relative rounded-xl max-w-full overflow-hidden object-cover min-w-[29.75rem] mq825:min-w-full"
@@ -34,7 +34,7 @@
                 <a
                     class="[text-decoration:none] relative text-[2rem] tracking-[1.1px] leading-[1.063rem] uppercase  font-bold text-red inline-block min-w-[4.588rem]">About
                     Me</a>
-                <div class="self-stretch  md:h-[25rem] relative leading-[1.875rem] pt-[1.312rem] inline-block shrink-0">
+                <div class="self-stretch  md:h-[25rem] relative leading-[1.875rem] pt-[1.312rem] inline-block shrink-0 text-justify">
                     Dr. Abi Fapohunda is an Assistant Professor at the University of Pittsburgh School of Public Health
                     and have conducted several studies among African Americans, Africans in the Diaspora and on the
                     African Continent. She is an epidemiologist and health educator with over 20 years’ experience of
@@ -43,7 +43,7 @@
                     disparities in both behavioral and physical health, including nutrition, smoking cessation,
                     HIV/AIDS, oral health and social service programs in Black communities.
                 </div>
-                <div class="self-stretch md:h-[20rem] relative leading-[1.875rem] inline-block shrink-0">
+                <div class="self-stretch md:h-[20rem] relative leading-[1.875rem] inline-block shrink-0 text-justify">
                     The focus of her current research is exploring factors that contribute to a healthy community for
                     Black immigrants. Dr. Fapohunda is also conducting research abroad training healthcare practitioners
                     on cancer awareness. In February 2019, Lakeshore Cancer Center in Lagos, Nigeria and Dr. Fapohunda
