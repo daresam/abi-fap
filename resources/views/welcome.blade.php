@@ -5,87 +5,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Abi Fap</title>
+    <title>Abi Fapohunda</title>
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre Franklin:wght@400&display=swap" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>
 
-<body>
+<body class="bg-gray-100">
     {{-- Navigation --}}
     @include('livewire.layout.navigation')
 
-    <div
-        class="w-full relative bg-white-3 overflow-hidden flex flex-col  justify-start gap-[0.043rem] leading-[normal] tracking-[normal]">
-
-        {{-- Hero Section --}}
-        <section id="hero"
-            class="flex flex-col md:flex-row items-center justify-center relative max-w-full text-center text-[2rem] md:text-[4rem] text-white font-desktop-links">
-            <img class="w-full h-[30rem] md:h-[56.25rem] object-cover opacity-4 " loading="lazy" alt="Hero Background"
-                src="{{ asset('images/abi-fap-cover.png') }}" />
-
+    <main>
+        <section class="relative">
+            <img alt="Portrait of Dr. Abi Fapohunda" class="object-cover w-full h-96" height="1080"
+                src="{{ asset('images/abi-fap-cover.png') }}" width="1920" />
             <div
-                class="absolute bottom-8 md:bottom-[18.875rem] left-4 md:left-[10.063rem]  w-full md:w-auto flex flex-col items-center md:items-start justify-start p-4 box-border z-10">
-                <div class="w-full  flex flex-col items-center md:items-center justify-center gap-6 md:gap-[1.875rem] ">
-                    <h1 class="text-[1.375rem] md:text-[3.188rem] lg:text-[3rem] font-bold tracking-[-0.02em]">
-                        Dr. Abi Fapohunda
-                    </h1>
-                    <h2
-                        class="text-[2rem] md:text-[2.5rem]  leading-[1.813rem] md:leading-[150%] font-bold  text-white-2">
-                        Scholar. Writer. Speaker.
-                    </h2>
-                    <button
-                        class="cursor-pointer border-none  py-3 px-6 bg-white shadow-sm rounded-lg flex items-center justify-center text-[1rem] tracking-[0.2em] leading-[150%] font-semibold text-red hover:bg-gainsboro w-full md:w-auto">
-                        SCHEDULE CONSULTATION
-                    </button>
+                class="absolute inset-0 flex flex-col items-center justify-center px-4 text-center text-white bg-black bg-opacity-50">
+                <h1 class="text-4xl font-bold">
+                    Dr. Abi Fapohunda
+                </h1>
+                <p class="mt-2 text-lg">
+                    Scholar. Writer. Speaker.
+                </p>
+                <a class="px-6 py-2 mt-4 text-white bg-red-600 rounded-full hover:bg-red-700" href="#">
+                    Schedule Consultation
+                </a>
+            </div>
+        </section>
+        <section class="py-12 bg-white">
+            <div class="container px-4 mx-auto text-center">
+                <h2 class="mb-6 text-2xl font-bold text-red-600">
+                    SELECTED CLIENTS &amp; PARTNERS
+                </h2>
+                <div class="flex flex-wrap justify-center space-x-8">
+                    <img alt="Logo 1" class="w-auto h-12 mb-4"
+                        src="https://storage.googleapis.com/a1aa/image/uV1GJEYZ3nrRBFfeZsDT0r9Efj5fFFiv5Wie2FQJXFbZSsXdC.jpg" />
+                    <img alt="Logo 2" class="w-auto h-12 mb-4"
+                        src="https://storage.googleapis.com/a1aa/image/X7z3AWOIFGIYKBbxZ7WCPcfwjeQx6xdGala61dQYaSDUi9qTA.jpg" />
+                    <img alt="Logo 3" class="w-auto h-12 mb-4"
+                        src="https://storage.googleapis.com/a1aa/image/GvsmQiT1QLJgNBnOuDI7Hb1H96k7iBrMSuu4qFBpGKcjYv6E.jpg" />
+                    <img alt="Logo 4" class="w-auto h-12 mb-4"
+                        src="https://storage.googleapis.com/a1aa/image/kZXpcAkwa14hIJcqS1wTBjpaNgFn4HeYUQ7fbxtvjemiE7VnA.jpg" />
+                    <img alt="Logo 5" class="w-auto h-12 mb-4"
+                        src="https://storage.googleapis.com/a1aa/image/tY9DxlBjusbRLt70X00RomYcqxq5Aeluwr8f31QIDxhQi9qTA.jpg" />
+                    <img alt="Logo 6" class="w-auto h-12 mb-4"
+                        src="https://storage.googleapis.com/a1aa/image/KTJCVsRpSIoiJ93QNKlBT7ZIzDNRugf5l4P8GfbbZsXPi9qTA.jpg" />
                 </div>
             </div>
         </section>
+    </main>
 
-        {{-- PARTNERS Section --}}
-        <section
-            class="self-stretch bg-white flex flex-col items-center justify-center pt-[5rem] px-[1.25rem] pb-[5.25rem] box-border gap-[2.5rem] max-w-full text-left text-[1.75rem] text-red font-desktop-links mq725:gap-[1.25rem]">
-            <div class="w-[75.75rem] flex flex-row  justify-center max-w-full">
-                <h1
-                    class="m-0 relative text-inherit leading-[3.25rem] font-bold font-inherit mq450:text-[1.375rem] mq450:leading-[2.625rem]">
-                    SELECTED CLIENTS & PARTNERS
-                </h1>
-            </div>
-            <div
-                class="w-[75.75rem] flex flex-row  justify-between gap-[1.25rem] max-w-full mq975:flex-wrap mq975:justify-center">
-                <img class="self-stretch w-[4.375rem] relative max-h-full overflow-hidden shrink-0 min-h-[2.75rem]"
-                    loading="lazy" alt="" src="{{ asset('images/logo.svg') }}" />
-
-                <img class="h-[2.563rem] w-[2.5rem] relative overflow-hidden shrink-0" alt=""
-                    src="{{ asset('images/logo-1.svg') }}" />
-
-                <img class="h-[2.5rem] w-[6.25rem] relative overflow-hidden shrink-0" alt=""
-                    src="{{ asset('images/logo-2.svg') }}" />
-
-                <img class="h-[2.563rem] w-[11.625rem] relative overflow-hidden shrink-0" alt=""
-                    src="{{ asset('images/logo-3.svg') }}" />
-
-                <img class="h-[1.875rem] w-[4.875rem] relative overflow-hidden shrink-0" alt=""
-                    src="{{ asset('images/logo-4.svg') }}" />
-
-                <img class="h-[2.5rem] w-[13.625rem] relative overflow-hidden shrink-0" alt=""
-                    src="{{ asset('images/logo-5.svg') }}" />
-
-                <img class="h-[2.5rem] w-[2.5rem] relative overflow-hidden shrink-0" alt=""
-                    src="{{ asset('images/logo-5.svg') }}" />
-            </div>
-        </section>
-
-
-
-    </div>
-
-    
     {{-- Footer --}}
     @include('livewire.layout.footer')
     @livewireScripts

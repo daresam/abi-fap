@@ -1,6 +1,126 @@
 <x-app-layout>
     {{-- Breadcrumb Navigation --}}
-
+    <section class="py-16 text-white bg-gradient-to-r from-red-600 to-gray-800">
+        <div class="container px-4 mx-auto text-center">
+            <h1 class="text-4xl font-bold">
+                Media
+            </h1>
+            <p class="mt-2">
+                Home &gt; Media
+            </p>
+        </div>
+    </section>
+    <section class="container grid grid-cols-1 gap-8 px-4 py-16 mx-auto md:grid-cols-2 lg:grid-cols-3">
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <img alt="Close-up of a green leaf with water droplets" class="object-cover w-full h-48" height="400"
+                src="https://storage.googleapis.com/a1aa/image/TK47NvtBBfzOUqU0ouQizPc75xJSU27rASVHvGUxLscZZfqTA.jpg"
+                width="600" />
+            <div class="p-4">
+                <p class="font-bold text-red-600">
+                    FEATURED IN WQED DOCUMENTARY ON HEALTH EQUITY IN SW PENNSYLVANIA
+                </p>
+            </div>
+        </div>
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <img alt="Mountain landscape with a cloudy sky" class="object-cover w-full h-48" height="400"
+                src="https://storage.googleapis.com/a1aa/image/ntasOiF86pa5A9ASQcC7jfBF6wLS12RcRl0uSCEHAhIkZfqTA.jpg"
+                width="600" />
+            <div class="p-4">
+                <p>
+                    AS PEOPLE TRAVEL TO PITTSBURGH FROM OUT-OF-STATE FOR ABORTIONS, BLACK PATIENTS COULD BE LEFT OUT
+                </p>
+            </div>
+        </div>
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <img alt="Snow-covered mountains under a clear sky" class="object-cover w-full h-48" height="400"
+                src="https://storage.googleapis.com/a1aa/image/911jiz6ygv7dMtz9XvzLnZ6go7eoQPRJDULGDYnSx3dhZfqTA.jpg"
+                width="600" />
+            <div class="p-4">
+                <p>
+                    MASKS AND MUCH MORE
+                </p>
+            </div>
+        </div>
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <img alt="Close-up of orange flowers against a black background" class="object-cover w-full h-48"
+                height="400"
+                src="https://storage.googleapis.com/a1aa/image/t1N9uDFI8CpAHtLCvqE5cHiXtwZRz96xBs1rVYhAGzwtsv6E.jpg"
+                width="600" />
+            <div class="p-4">
+                <p class="font-bold text-red-600">
+                    FEATURED IN WQED DOCUMENTARY ON HEALTH EQUITY IN SW PENNSYLVANIA
+                </p>
+            </div>
+        </div>
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <img alt="Traditional Japanese building" class="object-cover w-full h-48" height="400"
+                src="https://storage.googleapis.com/a1aa/image/OL34cMTAIcZEKVHp10eSjovlDqufjWHa2oEJrmYiNlw7yeVnA.jpg"
+                width="600" />
+            <div class="p-4">
+                <p>
+                    AS PEOPLE TRAVEL TO PITTSBURGH FROM OUT-OF-STATE FOR ABORTIONS, BLACK PATIENTS COULD BE LEFT OUT
+                </p>
+            </div>
+        </div>
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <img alt="Beach with waves crashing on the shore" class="object-cover w-full h-48" height="400"
+                src="https://storage.googleapis.com/a1aa/image/W8hLcuv2R6pHCN6PEWBHCoyoNzryJXx1fjNhd2V7HmsYZfqTA.jpg"
+                width="600" />
+            <div class="p-4">
+                <p>
+                    MASKS AND MUCH MORE
+                </p>
+            </div>
+        </div>
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <img alt="Pier extending into the ocean" class="object-cover w-full h-48" height="400"
+                src="https://storage.googleapis.com/a1aa/image/rkREDJzAuroUP9uIUPq44smMigH745B4EFC7qA8poZHusv6E.jpg"
+                width="600" />
+            <div class="p-4">
+                <p class="font-bold text-red-600">
+                    FEATURED IN WQED DOCUMENTARY ON HEALTH EQUITY IN SW PENNSYLVANIA
+                </p>
+            </div>
+        </div>
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <img alt="Architectural drawing of a building" class="object-cover w-full h-48" height="400"
+                src="https://storage.googleapis.com/a1aa/image/3F3Hjqk9bxqDM1cjKEeegVvDuteyJZullFY6H5LgHebQL7rOB.jpg"
+                width="600" />
+            <div class="p-4">
+                <p>
+                    AS PEOPLE TRAVEL TO PITTSBURGH FROM OUT-OF-STATE FOR ABORTIONS, BLACK PATIENTS COULD BE LEFT OUT
+                </p>
+            </div>
+        </div>
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <img alt="Underground subway sign with blurred background" class="object-cover w-full h-48" height="400"
+                src="https://storage.googleapis.com/a1aa/image/Swqd6n8KdNbdEB7eS4t19aspPnYGM2bJ1gleUdLegBhql9VnA.jpg"
+                width="600" />
+            <div class="p-4">
+                <p>
+                    MASKS AND MUCH MORE
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="py-8 text-center">
+        <button class="px-6 py-2 text-red-600 bg-white border border-red-600 rounded-full">
+            LOAD MORE
+        </button>
+    </div>
+    <section class="py-16 text-white bg-gradient-to-r from-red-600 to-gray-800">
+        <div class="container px-4 mx-auto text-center">
+            <h2 class="text-3xl font-bold">
+                Have questions in mind?
+            </h2>
+            <p class="mt-2">
+                Media inquiries can be submitted here
+            </p>
+            <button class="px-6 py-2 mt-4 text-white bg-red-600 rounded-full">
+                CONTACT ME
+            </button>
+        </div>
+    </section>
     <section
         class="self-stretch flex flex-row items-start justify-start pt-[0rem] px-[0rem] pb-[3.75rem] box-border max-w-full text-center text-[4rem] text-white font-desktop-links">
         <div
@@ -170,7 +290,8 @@
             <img class="h-full w-full absolute !m-[0] top-[0rem] right-[0rem] bottom-[0rem] left-[0rem] max-w-full overflow-hidden max-h-full object-cover"
                 alt="" src="{{ asset('images/gradient-1@2x.png') }}" />
 
-            <div class="w-[53.563rem] flex flex-col items-start justify-start p-[0.625rem] box-border max-w-full z-[1]">
+            <div
+                class="w-[53.563rem] flex flex-col items-start justify-start p-[0.625rem] box-border max-w-full z-[1]">
                 <div class="self-stretch flex flex-col items-center justify-start gap-[1.25rem]">
                     <h1
                         class="m-0 self-stretch relative text-inherit tracking-[-0.02em] font-bold font-inherit mq450:text-[2.375rem] mq975:text-[3.188rem]">
