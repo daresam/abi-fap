@@ -2,7 +2,7 @@
 
     <!-- Hero Section -->
     <section class="py-16 text-white bg-gradient-to-r from-red-600 to-gray-800">
-        <div class="container mx-auto text-center">
+        <div class="container px-4 mx-auto text-center text-[1.5rem] leading-[150%] font-normal">
             <h1 class="text-4xl font-bold">
                 Bio
             </h1>
